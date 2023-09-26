@@ -46,14 +46,18 @@ blockquote {
     font-weight: bold;
 }
 
-table, tr, th {
+table, th {
     border: 1px solid darkgray;
     border-spacing: 15px;
     margin: auto;
 }
 
+th {
+    border: 2px solid rgb(11, 83, 124);
+}
+
 ul {
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 li {
@@ -65,10 +69,3 @@ li {
 a {
     color: blue;
 }
-
-/* 
-
- li {
-     display: inline-block;
-     list-style: none;
- } */
