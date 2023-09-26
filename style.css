@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Ringbearer';
+    src: url(/font/RingbearerMedium-51mgZ.ttf);
+}
+
+html {
+    background-color: rgb(206, 197, 171);
+}
+
+body {
+
+   
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin: 4rem auto;
+    min-width: 600px;
+    width: 100%;
+}
+
+header {
+    border: 2px solid orange;
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'Ringbearer', sans-serif;
+    border: 4px solid green;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#img-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 400px;
+}
+
+h2 {
+    font-family: 'Ringbearer', sans-serif;
+    text-decoration: underline;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+table,tr,th {
+    border:1px solid black;
+    border-spacing: 15px;
+    margin: auto;
+ }
+
+ li {
+     list-style: none;
+     margin: 10px;
+ }
